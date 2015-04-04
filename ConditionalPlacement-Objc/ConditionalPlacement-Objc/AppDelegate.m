@@ -23,6 +23,10 @@
     int karlPlace = karl > 7 ? 1 : 2;
     int leonardPlace = leonard > 7 ? 1 : 2;
     
+    if (leonardPlace = 1 && karlPlace = 1) {
+        NSLog(@"Both teachers are placed 1");
+    } 
+    
     return YES;
 }
 
