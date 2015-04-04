@@ -18,10 +18,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     // Insert code here...
-    int Karl = 10;
-    int Leonard = 7;
-    int karlPlace;
-    int leonardPlace;
+    int karl = 10;
+    int leonard = 7;
+    int karlPlace = karl > 7 ? 1 : 2;
+    int leonardPlace = leonard > 7 ? 1 : 2;
     
     return YES;
 }
