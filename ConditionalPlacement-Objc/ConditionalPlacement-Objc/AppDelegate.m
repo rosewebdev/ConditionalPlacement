@@ -27,6 +27,8 @@
         NSLog(@"Both teachers are placed 1.");
     } else if (leonardPlace != 1 && karlPlace = 1) {
         NSLog(@"Karl is placed 1 and Leonard is placed 2.");
+    } else if (leonardPlace = 1 && karlPlace != 1) {
+        NSLog(@"Leonard is placed 1 and Karl is placed 2.");
     }
     
     return YES;
