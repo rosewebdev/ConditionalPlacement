@@ -20,6 +20,8 @@
     // Insert code here...
     int Karl = 10;
     int Leonard = 7;
+    int karlPlace;
+    int leonardPlace;
     
     return YES;
 }
